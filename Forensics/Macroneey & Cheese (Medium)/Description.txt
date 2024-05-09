@@ -1,0 +1,5 @@
+My friend Ole gave med this file but I don't know what to do with it. He said he'll just go out and buy some macaroni and cheese for lunch. Can you help me investigate this file before he comes back?
+
+flag{Your Answer}
+
+[Made by f0revernoob]
