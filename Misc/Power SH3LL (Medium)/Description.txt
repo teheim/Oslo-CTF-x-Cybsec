@@ -3,3 +3,6 @@ Using the terminal is fun, but did you know that you can use scripts to automate
 flag {Your Answer}
 
 [Made by f0revernoob]
+
+
+Hi
