@@ -1,0 +1,5 @@
+Using the terminal is fun, but did you know that you can use scripts to automate tasks? Try to find out what this code is doing and then get me the flag. :)
+
+flag {Your Answer}
+
+[Made by f0revernoob]

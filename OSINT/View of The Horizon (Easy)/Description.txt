@@ -1,0 +1,12 @@
+With the blue of the sky and the gleam of the sea, you see a city in quiet balance. Houses rest, closely clustered, by the coast where boats dance and dock.
+
+Islands stand like sentinels in the distance, welcoming those who are traveling. Find this pearl, which blurs on the horizon, and the solution to the riddle, there you will own.
+
+Can you reveal the name of the place, for in this challenge, your knowledge will flourish. So which harbor is this, which archipelago and city? In the 'View of the Horizon' challenge, tell us why and which sky.
+
+Analyze the image
+Answer me with the name of the meeting place in the following format. For example: flag{Grønland}
+
+flag{Your Answer}
+
+[Made by Danimo]

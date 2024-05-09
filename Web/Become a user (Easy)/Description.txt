@@ -1,0 +1,1 @@
+Are you able to find the client side vulnerability in this web app and make a new user that is not a guest? [Made By Spaceylad]

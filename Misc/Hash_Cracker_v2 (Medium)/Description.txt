@@ -1,0 +1,7 @@
+Seems like you are doing well in cracking passwords... but c4n y0u bRut3f0rc3 th1z h4sh 13824644bc5b157d32ef421c82e0f3b8 ?l?l?l?l?l?l
+
+I would suggest a VM with more than 2gb of ram. :)
+
+flag{cracked_word}
+
+[Made by f0revernoob]

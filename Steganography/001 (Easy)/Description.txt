@@ -1,0 +1,3 @@
+Steganography is the technique of hiding data within an ordinary, nonsecret file or message to avoid detection.
+
+[Made By UserHonest]

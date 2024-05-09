@@ -1,0 +1,10 @@
+Good, you solved your first pwn challenge! Now it is time to step up the game a bit... In this challenge you learn how to overwrite data on the stack with binary data.
+
+The challenge contains some guidance when it is run. Run the challenge in you favorite terminal using netcat by copying the command below:
+
+nc pwn.tokle.dev 1338
+Prereqs:
+
+netcat
+A way to send binary data, e.g. p64 in pwntools
+[Made by maritio_o & PewZ]

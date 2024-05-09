@@ -1,0 +1,8 @@
+Let's level up! You've been through the most basic pwn topic, buffer overflow. Now it is time to learn the second most basic topic, return oriented programming (ROP)!! You start by using a gadget. The description in the challenge will help you some more. GLHF! <3
+
+nc pwn.tokle.dev 1340
+Prereqs:
+
+netcat
+A way to send binary data, e.g. p64 in pwntools
+[Made by maritio_o & PewZ]

@@ -1,0 +1,2 @@
+This .jpg file has a secret inside of it, but the password is unknown. Can you figure out how to get the flag? 
+[Made by SpaceyLad]

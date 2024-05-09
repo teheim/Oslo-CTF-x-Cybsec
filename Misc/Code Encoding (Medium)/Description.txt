@@ -1,0 +1,5 @@
+This code looks weird. I tried google translate but I did not work. Maybe you have better luck than me?
+
+flag{Your Answer}
+
+[Made by f0revernoob]

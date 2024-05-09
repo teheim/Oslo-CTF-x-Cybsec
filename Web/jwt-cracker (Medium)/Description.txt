@@ -1,0 +1,3 @@
+The JWT token might have a weak signature... Can you crack it? Flag format: flag{secret} Tips: Read up and understand JWT tokens before attempting this challenge.
+
+[Made by SpaceyLad]
