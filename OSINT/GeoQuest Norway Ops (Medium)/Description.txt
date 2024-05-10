@@ -1,0 +1,13 @@
+to figure out where something happened or is going to happen based on inteligence data. Today you will learn to do the same thing! In the included .zip file is a text file with a script to get you started. Combine the instructions with the documentation of overpass to find the flag.
+
+Overpass-turbo: https://overpass-turbo.eu/# Documentation: https://wiki.openstreetmap.org/wiki/Map_features
+
+Instructions:
+
+1. It is in Norway.
+2. Find all dentists.
+3. Find all libraries that are 20 meters away from dentists.
+4. Find all banks that are 100 meters away from the dentists you have found.
+5. Find the fountain that is 50 meters away from the banks you have found.
+6. The flag is the ID of the fountain. (Should look like flag{123456789})
+[Made by SpaceyLad]

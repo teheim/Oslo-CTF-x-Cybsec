@@ -1,0 +1,3 @@
+The data traffic was captured in the SOC, and it seems that some files were transferred to a server. Inspect the pcap file and figure it out.
+
+[Made By UserHonest]

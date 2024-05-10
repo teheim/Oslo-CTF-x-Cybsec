@@ -1,0 +1,5 @@
+There is a fake bank running a crypto scam online. You have managed to get access to an AI support bot that handles money transfers. Can you get 1 000 000 $ into your golden chest and steal back the innocent victims money?
+
+(Warning, this is not a web challenge, do not use any tools or fuzzers. It is illegal and you will not find the flag that way.)
+
+[Made by SpaceyLad]

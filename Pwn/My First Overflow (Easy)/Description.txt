@@ -1,0 +1,12 @@
+Welcome to your first pwn challenge! This challenge is designed to give you an easy and comfortable beginning of your pwn journey. Don't get fooled. This is not necessarily easy to comprehend in the beginning. However, we know that if you try, you will learn the basics of pwn!
+
+In this challenge you learn how to overwrite data on the stack. GLHF! <3
+
+The challenge contains some guidance when it is run. Run the challenge in you favorite terminal using netcat by copying the command below:
+
+nc pwn.tokle.dev 1337
+Prereqs:
+
+netcat
+[Made by maritio_o & PewZ]
+

@@ -4,8 +4,8 @@ Med høyder kartlagt, og stier så vilt, er 'The Lonely Mountain' utfordringen, 
 
 For å løse dette mysteriet, må du søke og finne, gjennom koordinater og høyder som binder. I denne utfordringen, vil du trenge kartets nøkkel, finn navnet på fjellet, før tiden blir en fjellvegg å føkkel.
 
-Analyze the image
-Answer me with the Name
+1. Analyze the image
+2. Answer me with the Name
 For example flag{Your Answer}
 
 [Made by Danimo]

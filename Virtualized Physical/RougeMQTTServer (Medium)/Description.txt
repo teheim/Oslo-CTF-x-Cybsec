@@ -1,0 +1,5 @@
+I was supposed to configure a MQTT Network. But i think i did something wrong. It won't stop sending a secret phrase to my topics randomly.
+
+(This is a viritualised version of the task that was at the physical event)
+
+[Made By Teheim]

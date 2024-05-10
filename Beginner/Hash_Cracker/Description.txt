@@ -1,0 +1,2 @@
+Have you ever cracked a password hash before? No? Then lets do something about it! :D If you do not know how passwords cracking and hashing works, I highly recommend this video: https://www.youtube.com/watch?v=JRpg84eJHIM And this if you find it interesting: https://www.youtube.com/watch?v=7U-RbOKanYs This md5 hash can be cracked with rockyou.txt: 3c99534a4b3f0bbbb47531dee6610c29 The flag format is the following: flag{plainTextPassword}
+[Made By SpacyLad]

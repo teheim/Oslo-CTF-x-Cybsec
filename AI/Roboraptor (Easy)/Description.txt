@@ -1,0 +1,1 @@
+A cute roboraptor has conntacted earth! Have a chat and see if you can make it tell its secret. (Warning, this is not a web challenge, do not use any tools or fuzzers. It is illegal and you will not find the flag that way.) [Made By SpaceyLad]

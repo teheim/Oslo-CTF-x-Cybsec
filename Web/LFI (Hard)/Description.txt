@@ -1,0 +1,3 @@
+There is a directory on called flag with a file called flag.txt inside of it... It is not in the static folder, so you cannot get access to it. Or can you?
+
+[Made by SpaceyLad]

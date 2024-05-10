@@ -1,0 +1,13 @@
+Under changing clouds and the brilliance of lights, on green fields, the dance begins. Two teams in conflict, with wills that burn, their uniforms shine brightly, their hearts always return.
+
+Can you see them, can you tell, what colors, what emblems they adorn in the evening? A challenge lies ahead, not easy to crack, which teams are stretching out on the field?
+
+So look closely, capture the hints, find out who is fighting, with courage and with cheek. In the 'Match of The Day' challenge, you must be witty and wise, tell us who is playing, before time runs out, tick-tock, tick-tock.
+
+Analyze the image
+Answer me with the name of place the format
+For example flag{Bergen Lufhavn}
+
+flag{Your Answer}
+
+[Made by Danimo]
