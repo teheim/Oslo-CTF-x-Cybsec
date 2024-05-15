@@ -1,4 +1,4 @@
-# Mary Poppins strikes again
+# Roptastic shell
 
 <p align="center">
 <img src="./utils/roptastic_shell.png" alt="Challenge" width="500"/>
