@@ -1,7 +1,7 @@
 # My First Overflow
 
 <p align="center">
-<img src="./utils/my_first_overflow.png" alt="Challenge" width="300"/>
+<img src="./utils/my_first_overflow.png" alt="Challenge" width="500"/>
 </p>
 
 Connecting to the remote instance with `netcat` we are given some of the [source code](./utils/program.c) for the challenge. We are also given the goal of the challenge, and some options to interact with the program.
