@@ -6,14 +6,31 @@
 
 Connecting to the remote instance with `netcat` we are given some of the [source code](./utils/program.c) for the challenge. We are also given the goal of the challenge, and some options to interact with the program.
 
-This challenge is very similar to `inspector's new gadget`, but that we for this challenge have to put a value in the `rsi` register, in addition to the `rdi` register.
 ```
 Your goal is to create a ROP chain consisting of two gadgets:
   pop rdi (0x4038db)
   pop rsi (0x4038dd)
 rdi should contain 0xdeadbeef, and rsi should contain 0xc0debabe.
 Use the "Verify ROP chain" menu option to get the flag.
+
+Google these terms for help:
+- ROP gadgets
+- ROP chaining
+
+Good luck!
+
+1. Fill buffer
+2. Print stack frame
+3. Verify ROP chain
+4. Print challenge description
+5. Print gadgets
+6. Lookup symbol
+7. Add string
+8. [Quit]
+>
 ```
+
+This challenge is very similar to `inspector's new gadget`, but that we for this challenge have to put a value in the `rsi` register, in addition to the `rdi` register.
 
 We get the address all the useful gadgets we need from `option 5`, which we can automatize in our solve script.
 ```python
