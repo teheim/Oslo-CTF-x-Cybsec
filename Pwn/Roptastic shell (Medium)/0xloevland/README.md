@@ -102,7 +102,7 @@ But it doesn't work... This is because of something called [The MOVAPS Issue](ht
 
 The first way to find the gadget is to add 1 to the address of our `pop_rdi` gadget. Because the `pop_rdi` gadget ends with a `ret` instruction (pop rdi; ret;), and the `pop rdi` gadget is only a single byte, if we add 1 we get only the `ret` part of that gadget.
 
-Another way to find a `ret` gadget is by knowing that the original saved return address is a gadget with the operations `mov eax, 0; leave; ret;`. The `mov` instruction is 3 bytes in size, and the `leave` instruction is 1 byte in size. Therefore we know that a `ret` instruction is located at the address of the saved return address + 4 bytes.
+Another way to find a `ret` gadget is by knowing that the originally saved return address is the address of a gadget with the operations `mov eax, 0; leave; ret;`. The `mov` instruction is 3 bytes in size, and the `leave` instruction is 1 byte in size. Therefore we know that a `ret` instruction is located at the address of the saved return address + 4 bytes.
 The following full exploit script will use the first option, but both work equally good.
 
 The full, and commented, exploit script can be found in [solve.py](./solve.py).
