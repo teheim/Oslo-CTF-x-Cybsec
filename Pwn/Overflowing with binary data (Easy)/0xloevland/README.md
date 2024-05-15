@@ -30,6 +30,8 @@ Good luck!
 
 In the `My First Overflow` we overwrote the `path` entry in the `file_data` struct, but in this challenge we need to overwrite the `size` entry. Because we have to send bytes, we can't just write a lot of A's and 0x1337 as the input (similar to the previous challenge). Instead, we need to write the bytes of the integer `0x1337` into the buffer. This is easier to do with a python script with pwntools.
 
+Looking at the source code for the program we see that the `buf` and `path` entries in the struct are 32 and 64 bytes in size. This means that we need 32+64=96 bytes of padding before we start overwriting the `size` entry.
+
 The `size` entry is a 32-bit integer, so we need to write 4 bytes of data to overwrite it. We can use the `p32` function from `pwntools` to pack the integer `0x1337` into 4 bytes, and then write this data into the buffer.
 
 A commented exploit script can be found in [solve.py](./solve.py).
